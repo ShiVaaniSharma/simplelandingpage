@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Pacifico', cursive;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+
+}
+#left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    /* background-color: yellow; */
+}
+#textcenter h1{
+    /* top: 30px; */
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Advent Pro', sans-serif;
+
+}
+#services-lnavr{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 900;
+
+
+}
+.ri-arrow-left-line{
+    font-weight: 900;
+}
+#textcenter p{
+    opacity: .6;
+    font-size: 19px;
+    /* font-weight: 900; */
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 800;
+}
+#textcenter a{
+    opacity: .7;
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-weight: 700;
+
+}
+#lnav{
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+#lnavr a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+#lnavr i{
+    /* margin-left: 20px; */
+    color: royalblue;
+}
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: royalblue;
+
+}
+
+
+
+
+#rbottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(156, 225, 65); */
+    /* background-image: url(https://media.istockphoto.com/id/915680272/photo/sprout-watered-from-a-watering-can-on-nature-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=j3kZvU05PW_lZDLU_gIBDKoBs15p9aFp1gIaiKE5iIg=); */
+    /* background-image: url(https://media.istockphoto.com/id/511976070/photo/green-sprouts.jpg?s=612x612&w=0&k=20&c=MzoPpySb-r5bdKui7g8tPWzaZJB6ppVJfKWwWPJIxO8=); */
+    background-image: url(https://media.istockphoto.com/id/809861186/photo/female-hand-holding-coins-and-small-plant.jpg?s=612x612&w=0&k=20&c=4jVZ2h11Hnw0eiMJ7ysVwMYW44VkOqiV8FMdquM0UN0=);
+    /* background-image: url(); */
+    /* background-image: url(); */
+    /* background-size: cover; */
+    background-size: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+#rtopleft{
+    width: 55%;
+    height: 100%;
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1672218147779-d96c55b2b4a5?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(https://media.istockphoto.com/id/1161321111/photo/farmer-hands-take-care-and-protect-young-little-sprout-plant-in-the-soil-ground.jpg?s=612x612&w=0&k=20&c=yLYEH7m0rwE6H-vDGKcTFxCut9bFbzgsc43K-nUADTc=);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+#rtopright{
+    width: 45%;
+    height: 100%;
+    /* background-image: url(Untitled\ design.png); */
+    /* background-image: url(https://media.istockphoto.com/id/469538141/photo/plant-sprouting-from-the-dirt-with-a-blurred-background.jpg?s=612x612&w=0&k=20&c=uc-WaLHzRlsrBsHrTVO4fEqRqPjkh-MHtlGLj-QWI64=); */
+    background-size: cover;
+    /* background-position: bottom; */
+    background-position: center;
+    background-image: url(https://media.istockphoto.com/id/974643844/photo/teach-kids-how-far-a-little-care-can-go.jpg?s=612x612&w=0&k=20&c=4iOSrEFNzbql6x3TOQfZsQLxhYK4RuStZO7NBp2x_DY=);
+}
+@media(max-width:500px){
+    #main{
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100%;
+    }
+    #left #textcenter h1{
+    margin-top: 60px;
+    }
+    #left #textcenter p{
+        margin-top: 5px;
+        line-height: 17px;
+        margin-bottom: 5px;
+
+        }
+       
+    #main #right{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+  .rmiddle {
+    position: absolute;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rmiddle p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #eee;
+
+
+  }
+  .rmiddle p span.typed-text {
+    /* font-weight: 800; */
+    color: #ff7f2a;
+    font-family: 'Pacifico', cursive;
+
+  }
+  .rmiddle p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .rmiddle p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
